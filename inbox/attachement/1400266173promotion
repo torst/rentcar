@@ -1,0 +1,26 @@
+menu promotion:
+
+- par modele
+	(
+	- nom promotion
+	- modele
+	- prix courte duree 
+	- prix longue duree (toujours rempli)
+	(1 - si prix courte duree vide et prix longue duree non vide => signaler: promotion nouvaeu prix longue duree. detail: nouveau prix pour toute location sup a X jours du .. au ..)
+	 - si prix courte duree non vide 
+			2 - si egale a longue duree => signaler : nouveau prix pour toute location du … au …
+			3 - si different de longue duree => signaler: promotion a partir de prix longue duree. detail: nouveau prix pour toute location jusqu a X jour, et nouveau prix pour toute location a partir de x jour; du … au … 
+	
+	
+	)
+	- date debut
+	- date de fin
+	
+	
+	
+- par categorie
+- par option
+- par service
+
+
+Atention: lorsqu une promotion est définie pour un service ou une option, par un modele et une categorie en meme période, c'est la promotion par modele qui prime (spécificité prime sur la généralité)

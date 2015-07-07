@@ -1,0 +1,45 @@
+
+
+.notice {
+	background-color:#FDF7F7;
+	border-color: #D9534F;
+	padding:10px;
+	border-left-width:3px;
+	border-left-style:solid;
+	padding-left:15px;
+	margin-bottom:20px;
+	color:#222;
+}
+
+.notice h4{
+	color: #D9534F;
+}
+
+#advanced_search{
+	display:none;
+}
+
+label a{
+	border-bottom: 1px dashed #ba0000;
+}
+
+.zbanzai-label{
+	font-weight:bold !important;
+}
+.zbanzai-marque-selectize{
+	font-weight:bold !important;
+}
+
+.zbanzai-matricule-selectize{
+	border-bottom: 1px black dashed;
+}
+
+#lieu_reprise_groupe{
+	display:none;
+}
+#lieu_depart_groupe{
+	display:none;
+}
+#bloc_paiement {
+    display: none;
+}
